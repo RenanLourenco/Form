@@ -1,0 +1,83 @@
+body {
+    background-image: linear-gradient(to left, #fcc732, #ffbb00);
+    font-family: 'Poppins', sans-serif;
+
+}
+img {
+    opacity: 0.5;
+}
+.phone {
+    position: absolute;
+    top: 58%;
+    right: 57%;
+}
+.email{
+    position: absolute;
+    top: 52%;
+    right: 57.3%;
+}
+.job{
+    position: absolute;
+    top: 45.7%;
+    right: 57.1%;
+}
+.user {
+    position: absolute;
+    top: 39.9%;
+    right: 57.1%;
+}
+.cabecalho{
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(to right, #fcc732,#ffbb00, #fcc83a);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.title {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    
+}
+  form {
+    margin-top: 10em;
+    margin-left: 30em;
+    margin-top: 9em;
+    width: 30%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+form input,textarea {
+    display: block;
+    margin-left: 17%;
+    width: 65%;
+    height: 25px;
+    border:none grey;
+    
+    border-radius: 2px;
+    margin-bottom: 10px
+}
+
+#submit {
+    width: 100px;
+    margin-left: 40%;
+    border: none;
+    border-radius: 0px;
+    background-image: linear-gradient(to right, #fcc732,#ffbb00, #fcc83a);  
+}
+#submit:hover {
+    cursor: pointer;
+    background: #ffbb00;
+    transition: 1s;
+}
+
+input:hover,textarea:hover {
+    border-bottom: 1px yellow solid;
+    transition: 0.5s;
+    
+}
