@@ -44,9 +44,7 @@ img {
     
 }
   form {
-    margin-top: 10em;
-    margin-left: 30em;
-    margin-top: 9em;
+    margin: auto;
     width: 30%;
     background-color: white;
     border-radius: 15px;
